@@ -1,0 +1,40 @@
+.cart{
+    width: 90%;
+    height: 15vh;
+    border-radius: 25px;
+   margin: 50px auto;
+   box-shadow:  0px 0px 4px #00000085;
+   animation: cartanim1 1.5s ease;
+
+}
+.cart:hover{
+    box-shadow:  0px 0px 9px #00000085;
+
+}
+.cart ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.cart ul li img{
+    height: 80px;
+    width: 100px;
+}
+.cart button{
+    background-color: RGB(255, 102, 102);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.Cart{
+    min-height: 77vh;
+}
+
+@keyframes cartanim1{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}

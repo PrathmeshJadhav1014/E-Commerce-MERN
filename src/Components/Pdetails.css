@@ -1,0 +1,15 @@
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 50px auto;
+}
+.info ul li{
+    margin: 20px 0px;
+}
+.info button{
+    background-color:RGB(255, 143, 156);
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: black;
+}

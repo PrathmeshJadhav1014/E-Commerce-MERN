@@ -1,0 +1,36 @@
+.checkout{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow:  0px 0px 9px #00000085;
+
+}
+.info ul li{
+    margin: 20px 0px;
+}
+.info button{
+    background-color: RGB(255, 102, 102);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.checkout img{
+    border-radius: 25px 0px 0px 25px;
+}
+li button{
+    background-color: RGB(255, 102, 102);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin: 20px 0px;
+}
+.CloseBtn{
+    background-color: RGB(255, 102, 102);
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin: 20px 0px;
+    position: absolute;
+    right: 210px;
+}

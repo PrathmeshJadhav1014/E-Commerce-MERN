@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height: 50vh;
+    border: none;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow:  0px 0px 9px #00000085;
+    scale: 1.05;
+}
+.ProductGrid{
+    width: 90%;
+    display: grid;
+    margin: 4rem 0px;
+    margin-left: 7rem;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+ul{
+    width: 100%;
+
+}
+ul li{
+    text-align: left;
+    margin: 10px 0px;
+}
+.seeAll{
+    width: 90%;
+    margin: 4rem auto;
+}
+.seeAll button{
+    margin: 0px auto;
+    background-color: RGB(255, 143, 156);
+    padding: 10px 50px;
+    font-size: larger;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.seeAll button:hover{
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.633);
+    scale: 1.08;
+
+}

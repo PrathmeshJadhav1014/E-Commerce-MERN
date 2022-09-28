@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin-left: 7rem;
+}
+.card{
+    margin: 50px 0px;
+    animation: cardanim 2s ease;
+}
+@keyframes cardanim{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}

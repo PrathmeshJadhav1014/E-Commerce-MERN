@@ -1,0 +1,168 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  width: 60%;
+}
+.left{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: center;
+  height: 83vh;
+}
+.form {
+  width: 40%;
+  margin: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.select{
+  font-size: 1rem;
+  font-weight: normal;
+  width: 40%;
+  padding: 8px 24px 8px 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #00000040;
+  margin-bottom: 20px;
+  margin-right: 9rem;
+  /* display: inline; */
+
+}
+.form input{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #00000040;
+
+}
+.nav{
+  height: 10vh;
+  width: 100%;
+  background-color: #fff;
+}
+.nav img{
+  margin: 0px auto;
+  height: 80px;
+  width: 160px;
+}
+input {
+  margin: 20px 0px;
+}
+.btn1{
+  width: 100%;
+  display: flex;
+  
+}
+.btn1 input[type="submit"] {
+  width: 40%;
+  font-size: 1rem;
+  background-color: RGB(255, 143, 156);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.btn1 input[type="button"] {
+  width: 40%;
+  font-size: 1rem;
+  background-color:RGB(33, 33, 33);
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 7rem;
+}
+
+.red{
+  color: rgba(255, 0, 0, 0.592);
+  margin: 20px 0px ;
+}
+.edit{
+  display: flex;
+
+}
+.text{
+  padding-top: 7rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  color: RGB(33, 33, 33);
+}
+.text p{
+  font-size: 7rem;
+  animation: hii ease 4s infinite;
+}
+
+@keyframes hii{
+  0%,100%{
+    transform: translateX(-70px) ;
+  }
+  50%{
+    transform: translateX(50px);
+  }
+}
+.btn2{
+  margin-right: 20px;
+}
+.btn3{
+  margin-right: 12rem;
+}
+.body{
+  min-height: 80vh;
+}
+.Card-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 70%;
+  margin: 0px auto;
+}
+.Card-grid2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 50%;
+  margin: 0px auto;
+}
+.Card-grid .card{
+  text-align: center;
+  height: 12rem;
+  background: radial-gradient(#76b2fe, #b69efe);
+
+}
+.Card-grid2 .card{
+  text-align: center;
+  height: 12rem;
+  background: radial-gradient(#76b2fe, #b69efe);
+
+}
+.card__title{
+  padding: 50px 50px 0px 50px;
+}
+.Card-grid .card:hover{
+  box-shadow:  0px 0px 12px #000000e1;
+}
+.Card-grid2 .card:hover{
+  box-shadow:  0px 0px 12px #000000e1;
+}
+.Card-grid3{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 50%;
+  margin: 0px auto;
+}
+.Card-grid3 .card{
+  text-align: center;
+  height: 12rem;
+  box-shadow:  0px 0px 9px #00000085;
+
+}
+.Red{
+  color:red ;
+}
+.Card-grid3 .card__title{
+  padding: 50px;
+}
+
